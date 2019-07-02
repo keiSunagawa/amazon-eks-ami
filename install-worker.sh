@@ -7,6 +7,17 @@ IFS=$'\n\t'
 
 TEMPLATE_DIR=${TEMPLATE_DIR:-/tmp/worker}
 
+# ADD variables
+BINARY_BUCKET_NAME=amazon-eks
+BINARY_BUCKET_REGION=us-west-2
+DOCKER_VERSION=18.06
+CNI_VERSION=v0.6.0
+CNI_PLUGIN_VERSION=v0.7.5
+KUBERNETES_BUILD_DATE=2019-03-27
+KUBERNETES_VERSION=1.12.7
+ARCH=x86_64
+SOURCE_AMI_OWNERS=137112412989
+
 ################################################################################
 ### Validate Required Arguments ################################################
 ################################################################################
